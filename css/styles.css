@@ -1,12 +1,76 @@
+* {
+  font-family: 'Playfair Display SC', serif;
+}
 table {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
 }
 table, th {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 th, td {
   padding: 10px;
-  border:  1px solid black;
+  border:  2px solid black;
+  text-align: center;
+}
+#sorted, #sendSort {
+  display: none;
+}
+form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 90px;
+  text-shadow: 3px 3px black;
+  color: white;
+}
+.form-group {
+  padding: 50px;
+}
+.btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background-color: #c42e12;
+  box-shadow: 10px 10px 5px #888888;
+  color: white;
+}
+.btn:hover {
+  box-shadow: none;
+  background-color: #266318;
+  color: white;
+}
+
+#sendSort {
+margin-top: 30px;
+}
+
+body {
+  background-image: url(../img/tomato.jpg);
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  height: 1500px;
+  background-color: white;
+  border-radius: 10px;
+  border: 15px solid black;
+}
+label {
+  font-size: 25px;
+  font-weight: lighter;
+}
+th {
+  background-color: #ffb4a2;
 }
